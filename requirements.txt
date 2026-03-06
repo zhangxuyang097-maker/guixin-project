@@ -1,0 +1,31 @@
+# 轨芯安 (RailCore Secure) 依赖项
+# Python 3.9+
+
+# 核心依赖
+z3-solver>=4.12.0
+pydantic>=2.0.0
+
+# GUI 依赖
+PyQt6>=6.5.0
+
+# 测试依赖
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+
+# 类型检查
+mypy>=1.5.0
+types-setuptools
+
+# 代码质量
+flake8>=6.1.0
+black>=23.7.0
+isort>=5.12.0
+
+# 文档生成
+sphinx>=7.1.0
+sphinx-rtd-theme>=1.3.0
+
+# 性能分析
+line-profiler>=4.1.0
+memory-profiler>=0.61.0
